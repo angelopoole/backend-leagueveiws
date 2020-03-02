@@ -1,0 +1,2 @@
+class ChampionlistsController < ApplicationController
+end
