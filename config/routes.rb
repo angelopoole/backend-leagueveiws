@@ -10,5 +10,6 @@ Rails.application.routes.draw do
   delete '/champions', to: 'champions#destroy'
   patch '/champions', to: 'champions#update'
 
+  post "/championlists", to: 'championlists#create'
 
   end
