@@ -1,3 +1,4 @@
 class ChampionlistSerializer < ActiveModel::Serializer
-  attributes :id, :User_id, :Champion_id
+  attributes :id, :user_id, :champion_id
+  belongs_to :champion
 end
